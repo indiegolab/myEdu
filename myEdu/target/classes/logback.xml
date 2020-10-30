@@ -59,6 +59,19 @@
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="ROLLING" />
 	</logger>
+	
+	
+	
+	
+	  <logger name="jdbc.sqlonly" level="debug" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ROLLING" />
+    </logger>
+
+    <logger name="jdbc.resultsettable" level="debug" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ROLLING" />
+    </logger>
 
 	<root level="debug">
 		<appender-ref ref="STDOUT" />
