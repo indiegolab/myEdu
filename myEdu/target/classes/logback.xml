@@ -60,9 +60,6 @@
 		<appender-ref ref="ROLLING" />
 	</logger>
 	
-	
-	
-	
 	  <logger name="jdbc.sqlonly" level="debug" additivity="false">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="ROLLING" />
@@ -72,8 +69,8 @@
         <appender-ref ref="STDOUT" />
         <appender-ref ref="ROLLING" />
     </logger>
-
-	<root level="debug">
+<!-- 	<root level="debug"> -->
+		<root level="warn">
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="ROLLING" />
 	</root>
